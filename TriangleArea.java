@@ -12,7 +12,7 @@ return .5*base*height;
 }
 public class TriangleArea {
     public static void main(String[] args) {
-        Triangle t=new Triangle(4,6);
+        Triangle t=new Triangle(5,15);
         System.out.println("area"+t.findArea());
     }
 }

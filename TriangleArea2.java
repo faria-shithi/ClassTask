@@ -7,7 +7,7 @@ class Triangle {
 
     }
    double findArea() {
-        double s = (a + b + c) / 3;
+        double s = (a + b + c) / 2;
         return Math.sqrt(s * (s - a) * (s - b) * (s - c));
    
     }
@@ -15,7 +15,7 @@ class Triangle {
 }
 public class TriangleArea2  {
     public static void main(String[] args) {
-        Triangle t1 = new Triangle(5, 6, 7);
+        Triangle t1 = new Triangle(10,5,7);
         System.out.println("area " + t1.findArea());
    
     }

@@ -2,10 +2,7 @@ class Printer {
     public void EvenForLoop() {
         System.out.print("For Loop: ");
         for (int i = 2; i <= 20; i += 2) {
-            if(i<20)
-            System.out.print(i+", ");
-            else
-                 System.out.println("i");
+            System.out.print(i + (i < 20 ? ", " : "\n"));
        
         }
 
@@ -20,10 +17,7 @@ public void OddForLoop() {
         System.out.print("While Loop : ");
         int i = 2;
         while (i <= 20) {
-         if(i<20)
-            System.out.print(i+", ");
-            else
-                 System.out.println("i");
+            System.out.print(i + (i < 20 ? ", " : "\n"));
             i += 2;
         }
     }
@@ -39,10 +33,7 @@ public void OddForLoop() {
         System.out.print("Do-While: ");
         int i = 2;
         do {
-             if(i<20)
-            System.out.print(i+", ");
-            else
-                 System.out.println("i");
+            System.out.print(i + (i < 20 ? ", " : "\n"));
             i += 2;
         } while (i <= 20);
 }
